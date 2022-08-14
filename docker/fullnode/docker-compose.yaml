@@ -9,6 +9,7 @@ services:
     expose:
     - "9000"
     - "9184"
+    - "8080"
     volumes:
     - ./fullnode-template.yaml:/sui/fullnode.yaml:ro
     - ./genesis.blob:/sui/genesis.blob:ro
